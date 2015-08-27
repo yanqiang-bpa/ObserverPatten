@@ -6,10 +6,25 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		D7DCAE631B8F49DF00442237 /* MainFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainFrameWork.h; sourceTree = "<group>"; };
+		D7DCAE641B8F4B4700442237 /* FileSplitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileSplitter.h; sourceTree = "<group>"; };
+		D7DCAE651B8F4E9E00442237 /* QuickFileSplitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickFileSplitter.h; sourceTree = "<group>"; };
+		D7DCAE661B8F586F00442237 /* ProgressBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressBar.h; sourceTree = "<group>"; };
+		D7DCAE671B8F67D000442237 /* IFileSplitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IFileSplitter.h; sourceTree = "<group>"; };
+		D7DCAE681B8F6AD400442237 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		D7DCAE5C1B8F499A00442237 = {
 			isa = PBXGroup;
 			children = (
+				D7DCAE681B8F6AD400442237 /* test.cpp */,
+				D7DCAE671B8F67D000442237 /* IFileSplitter.h */,
+				D7DCAE661B8F586F00442237 /* ProgressBar.h */,
+				D7DCAE651B8F4E9E00442237 /* QuickFileSplitter.h */,
+				D7DCAE641B8F4B4700442237 /* FileSplitter.h */,
+				D7DCAE631B8F49DF00442237 /* MainFrameWork.h */,
 			);
 			sourceTree = "<group>";
 		};
